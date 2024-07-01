@@ -1,13 +1,14 @@
 body{
     margin:0;
     padding:0;
+    font-family:Arial, sans-serif;
 }
 .navbar{
-    display:flex;align-self;
+    display:flex;
     align-items: center;
     font-size:12px;
     background-color: #0f0f10;
-
+    padding:10px;
 }
 .reddit-logo{
     width:140px;
@@ -16,18 +17,44 @@ body{
 .search-bar{
     display:flex;
     flex:1;
+    padding-left:70px;
 }
 .search-bar input{
-    font-size:12px;
+    border:none;
+    margin:10px;
+    font-size:14px;
     width:500px;
-    border-radius:30px
+    background-color: rgb(60, 65, 63);
+    padding:13px;
+    border-radius:30px;
+    color:white;
 }
-.app-button{
+.menu-button,.login-button,.settings-button{
     display:flex;
 }
-.login-button{
-    display:flex;
+
+.login-button button{
+    border:none;
+    border-radius:30px;
+    background-color: rgb(234, 61, 14);
+    color:white;
+    padding:15px;
+    margin:10px;
 }
-.settings-button{
-    display:flex;
+.login-button:hover{
+    border:none;
+    border-radius:30px;
+    background-color:rgb(142, 53, 21);
+}
+
+.settings-button button{
+    border:none;
+    background-color:#0f0f10;
+    color: white;
+}
+
+.settings-button:hover{
+    border:none;
+    border-radius:30px;
+    background-color:rgb(87, 82, 82);
 }
