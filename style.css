@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    display:flex;align-self;
+    align-items: center;
+    font-size:12px;
+    background-color: #0f0f10;
+
+}
+.reddit-logo{
+    width:140px;
+    margin-left:5px;
+}
+.search-bar{
+    display:flex;
+    flex:1;
+}
+.search-bar input{
+    font-size:12px;
+    width:500px;
+    border-radius:30px
+}
+.app-button{
+    display:flex;
+}
+.login-button{
+    display:flex;
+}
+.settings-button{
+    display:flex;
+}
