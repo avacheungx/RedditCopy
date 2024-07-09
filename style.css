@@ -8,7 +8,9 @@ body{
     align-items: center;
     font-size:12px;
     background-color: #0f0f10;
-    padding:10px;
+    padding:0px;
+    padding-left:10px;
+    padding-right:10px;
 }
 .reddit-logo{
     width:140px;
@@ -21,7 +23,7 @@ body{
 }
 .search-bar input{
     border:none;
-    margin:10px;
+    margin: 0px;
     font-size:14px;
     width:500px;
     background-color: rgb(60, 65, 63);
@@ -57,4 +59,8 @@ body{
     border:none;
     border-radius:30px;
     background-color:rgb(87, 82, 82);
+}
+
+.top-slides{
+    background-color:aqua;
 }
