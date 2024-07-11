@@ -1,8 +1,18 @@
 body{
     margin:0;
-    padding:0;
+    padding:5px;
     font-family:Arial, sans-serif;
+    max-width:1200px;
+    background-color: #0f0f10;
+    color:white;
+    font-family:verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
 }
+
+hr{
+    opacity: 10%;
+}
+
 .navbar{
     display:flex;
     align-items: center;
@@ -61,6 +71,45 @@ body{
     background-color:rgb(87, 82, 82);
 }
 
-.top-slides{
-    background-color:aqua;
+.main-layout{
+    display:flex;
+    align-items:flex-start;
+}
+
+.top-slides, .content-posts{
+    flex:1;
+}
+.carousel{
+    position:relative;
+    width:100px;
+}
+
+.carousel-images{
+    display:flex;
+
+}
+.carousel-images img{
+    width:290px;
+    border-radius:15px;
+    margin:5px;
+}
+
+.content-posts{
+    flex:1;
+    width:850px;
+    margin:20px;
+}
+.content-title{
+    font-size:16px;
+    color:azure;
+    font-weight:500;
+}
+.content p{
+    opacity:60%;
+}
+
+.right-sidebar{
+    position:fixed;
+    right:0;
+
 }
